@@ -16,10 +16,14 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/image1.jpg');
+    background-image: url('/images/image1.jpg');
     min-height: 100%;
 }
 
 .title {
     font-size: 30px;
 }
+
+.a2 {
+    filter: grayscale(90%);
+  }
