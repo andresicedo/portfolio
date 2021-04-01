@@ -11,7 +11,7 @@ h6 {
     margin-top: -5%;
 }
 .yTube {
-    margin-bottom: 1.5%;
+    margin-bottom: 1.7%;
 }
 .w3-row-padding img {
     margin-bottom: 12px
@@ -32,6 +32,11 @@ h6 {
   .container {
     padding: 2px 16px;
   }
+
+.letsConnect {
+  font-size: 20px;
+  margin-bottom: 0%;
+}
 
 .bgimg {
     background-position: center;
