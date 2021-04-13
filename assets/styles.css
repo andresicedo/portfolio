@@ -45,6 +45,26 @@ h6 {
     background-image: url('/assets/images/imgLeft1.JPG');
     min-height: 100%;
     filter: grayscale(90%);
+    /* transition: opacity 2s ease; */
+}
+
+.bgimg2 {
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/assets/images/imgLeft2.JPG');
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  filter: grayscale(90%);
+  transition: opacity 1s ease;
+  opacity: 0;
+}
+
+.bgimg2.visible {
+  opacity: 1;
 }
 
 .title {

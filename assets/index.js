@@ -11,13 +11,15 @@ function closeNav() {
 
 // Transition to different image when scrolling past X
 let content = document.getElementById('content')
-let scrollChange = -500
-let bgimg = document.getElementById('bgimg');
+let scrollChange = 0
+let bgimg2 = document.querySelector('.bgimg2');
 
 window.addEventListener('scroll', (e) => {
     let {top} = content.getBoundingClientRect();
-    if(top - window.innerHeight < scrollChange) {
-        bgimg.style.backgroundImage = url('/assets/images/imgLeft2.JPG')
+    if(top + window.innerHeight < scrollChange) {
+        bgimg2.classList.add('visible');
+    } else {
+        bgimg2.classList.remove('visible');
     }
 })
 
