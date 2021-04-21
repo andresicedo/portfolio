@@ -45,7 +45,6 @@ h6 {
     background-image: url('/assets/images/imgLeft1.JPG');
     min-height: 100%;
     filter: grayscale(90%);
-    /* transition: opacity 2s ease; */
 }
 
 .bgimg2 {
@@ -71,6 +70,32 @@ h6 {
     font-size: 30px;
 }
 
+.cardTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.liveButton {
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+
+.liveButton a {
+  text-decoration: none;
+}
+
 .a2 {
-    filter: grayscale(90%);
-  }
+    filter: grayscale(100%);
+    border: black;
+    border-width: .2em;
+    border-style: solid;
+}
+
+.imgCard {
+  background-color: black !important;
+  color: white !important;
+}
+
+.aboutTitle {
+  font-size: 25px;
+}
