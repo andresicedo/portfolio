@@ -23,13 +23,3 @@ window.addEventListener('scroll', (e) => {
     }
 })
 
-// var initialSrc = "/assets/images/imgLeft1.JPG";
-// var scrollSrc = "/assets/images/imgLeft2.JPG'";
-
-// $(window).scroll(function() {
-//    var value = $(this).scrollTop();
-//    if (value > 100)
-//       $(".bgimg").attr("src", scrollSrc);
-//    else
-//       $(".bgimg").attr("src", initialSrc);
-// });
